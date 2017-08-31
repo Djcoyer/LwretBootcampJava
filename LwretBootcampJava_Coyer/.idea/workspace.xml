@@ -13,14 +13,74 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LwretBootcampJava_Coyer$All_in_LwretBootcampJava_Coyer.coverage" NAME="All in LwretBootcampJava_Coyer Coverage Results" MODIFIED="1504207239855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/LwretBootcampJava_Coyer$HelloWorldTest_GetMessageReturnsCorrectMessage.coverage" NAME="HelloWorldTest.GetMessageReturnsCorrectMessage Coverage Results" MODIFIED="1504205798212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.Programs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LwretBootcampJava_Coyer$HelloUserTest.coverage" NAME="HelloUserTest Coverage Results" MODIFIED="1504206550076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.Programs.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/LwretBootcampJava_Coyer$HelloWorldTest.coverage" NAME="HelloWorldTest Coverage Results" MODIFIED="1504206638097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.company.Programs.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="305">
+              <caret line="99" column="68" lean-forward="true" selection-start-line="99" selection-start-column="68" selection-end-line="99" selection-end-column="68" />
+              <folding>
+                <element signature="method#GetProgram#0;class#Main#0" expanded="false" />
+                <element signature="method#TryParseInt#0;class#Main#0" expanded="false" />
+                <element signature="method#HandleHelloUser#0;class#Main#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummationOrProduct.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Programs/SummationOrProduct.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummationOrProductTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/SummationOrProductTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Summation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Summation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SummationTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/SummationTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,8 +88,8 @@
       <file leaf-file-name="HelloUser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Programs/HelloUser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -45,26 +105,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloWorldTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloWorldTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloUserTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloUserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="50">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="55" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,8 +139,12 @@
         <option value="$PROJECT_DIR$/src/com/company/Programs/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/Tests/com/company/Programs/HelloWorldTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Programs/HelloUser.java" />
+        <option value="$PROJECT_DIR$/src/Tests/com/company/Programs/Summation.java" />
         <option value="$PROJECT_DIR$/src/Tests/com/company/Programs/HelloUserTest.java" />
         <option value="$PROJECT_DIR$/src/com/company/Programs/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Programs/SummationOrProduct.java" />
+        <option value="$PROJECT_DIR$/src/Tests/com/company/Programs/SummationTest.java" />
+        <option value="$PROJECT_DIR$/src/Tests/com/company/Programs/SummationOrProductTest.java" />
       </list>
     </option>
   </component>
@@ -107,8 +157,8 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-1474" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-1608" />
     <option name="y" value="-8" />
     <option name="width" value="1452" />
     <option name="height" value="870" />
@@ -128,8 +178,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,6 +203,12 @@
               <item name="LwretBootcampJava_Coyer" type="b2602c69:ProjectViewProjectNode" />
               <item name="LwretBootcampJava_Coyer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Programs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LwretBootcampJava_Coyer" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LwretBootcampJava_Coyer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -164,14 +222,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.12.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -181,6 +237,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company.Programs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.company.Programs" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
@@ -199,7 +258,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.SummationOrProductTest.SumOrProductFrom1ToN_Returns120WhenInput5">
     <configuration name="All in LwretBootcampJava_Coyer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="LwretBootcampJava_Coyer" />
@@ -220,32 +279,26 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="HelloUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.Programs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="LwretBootcampJava_Coyer" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Programs.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.company.Programs" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Programs.HelloUserTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="LwretBootcampJava_Coyer" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="HelloUserTest.GetMessageReturnsCorrectMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SummationOrProductTest.GetOperationReturnsSameInputValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.Programs.*" />
@@ -256,8 +309,8 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.Programs" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Programs.HelloUserTest" />
-      <option name="METHOD_NAME" value="GetMessageReturnsCorrectMessage" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Programs.SummationOrProductTest" />
+      <option name="METHOD_NAME" value="GetOperationReturnsSameInputValue" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -270,7 +323,7 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="HelloWorldTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SummationOrProductTest.SumOrProductFrom1ToN_Returns120WhenInput5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.company.Programs.*" />
@@ -281,9 +334,9 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.company.Programs" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Programs.HelloWorldTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Programs.SummationOrProductTest" />
+      <option name="METHOD_NAME" value="SumOrProductFrom1ToN_Returns120WhenInput5" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -295,21 +348,30 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="com.company.Programs.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    <configuration name="SummationTest.SumFrom1ToN_Returns55WhenNIs10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.company.Programs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="LwretBootcampJava_Coyer" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" value="" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.company.Programs" />
+      <option name="MAIN_CLASS_NAME" value="com.company.Programs.SummationTest" />
+      <option name="METHOD_NAME" value="SumFrom1ToN_Returns55WhenNIs10" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="LwretBootcampJava_Coyer" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
       <envs />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <patterns />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -327,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.HelloWorldTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.All in LwretBootcampJava_Coyer" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HelloUserTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HelloUserTest.GetMessageReturnsCorrectMessage" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.All in LwretBootcampJava_Coyer" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.SummationTest.SumFrom1ToN_Returns55WhenNIs10" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SummationOrProductTest.GetOperationReturnsSameInputValue" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.SummationOrProductTest.SumOrProductFrom1ToN_Returns120WhenInput5" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HelloUserTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.HelloUserTest.GetMessageReturnsCorrectMessage" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.HelloWorldTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.All in LwretBootcampJava_Coyer" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.SummationOrProductTest.SumOrProductFrom1ToN_Returns120WhenInput5" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.SummationOrProductTest.GetOperationReturnsSameInputValue" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in LwretBootcampJava_Coyer" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.SummationTest.SumFrom1ToN_Returns55WhenNIs10" />
       </list>
     </recent_temporary>
   </component>
@@ -355,28 +417,47 @@
       <updated>1504195903049</updated>
       <workItem from="1504195907113" duration="2363000" />
       <workItem from="1504198321519" duration="3732000" />
+      <workItem from="1504204485327" duration="5623000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HelloUserTest - 2017.08.31 at 12h 32m 22s.xml">
+    <history-entry file="All_in_LwretBootcampJava_Coyer - 2017.08.31 at 13h 58m 54s.xml">
+      <configuration name="All in LwretBootcampJava_Coyer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_LwretBootcampJava_Coyer - 2017.08.31 at 14h 20m 40s.xml">
+      <configuration name="All in LwretBootcampJava_Coyer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HelloUserTest - 2017.08.31 at 14h 09m 10s.xml">
       <configuration name="HelloUserTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloUserTest - 2017.08.31 at 12h 53m 39s.xml">
-      <configuration name="HelloUserTest" configurationId="JUnit" />
+    <history-entry file="HelloUserTest_GetUserNameReturnsCorrectUsername - 2017.08.31 at 14h 05m 34s.xml">
+      <configuration name="HelloUserTest.GetUserNameReturnsCorrectUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloUserTest - 2017.08.31 at 12h 53m 42s.xml">
-      <configuration name="HelloUserTest" configurationId="JUnit" />
+    <history-entry file="HelloUserTest_GetUserNameReturnsCorrectUsername - 2017.08.31 at 14h 08m 01s.xml">
+      <configuration name="HelloUserTest.GetUserNameReturnsCorrectUsername" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HelloWorldTest - 2017.08.31 at 12h 32m 31s.xml">
+    <history-entry file="HelloWorldTest - 2017.08.31 at 14h 10m 38s.xml">
       <configuration name="HelloWorldTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SummationOrProductTest_GetOperationReturnsSameInputValue - 2017.08.31 at 14h 53m 23s.xml">
+      <configuration name="SummationOrProductTest.GetOperationReturnsSameInputValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SummationOrProductTest_GetOperationReturnsSameInputValue - 2017.08.31 at 14h 54m 33s.xml">
+      <configuration name="SummationOrProductTest.GetOperationReturnsSameInputValue" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SummationOrProductTest_SumOrProductFrom1ToN_Returns120WhenInput5 - 2017.08.31 at 15h 08m 26s.xml">
+      <configuration name="SummationOrProductTest.SumOrProductFrom1ToN_Returns120WhenInput5" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SummationTest_SumFrom1ToN_Returns55WhenNIs10 - 2017.08.31 at 14h 19m 59s.xml">
+      <configuration name="SummationTest.SumFrom1ToN_Returns55WhenNIs10" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6095000" />
+    <option name="totallyTimeSpent" value="11718000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1608" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="-1608" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -387,13 +468,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969153" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22365038" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -417,7 +499,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -425,7 +509,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#GetProgram#0;class#Main#0" expanded="false" />
+            <element signature="method#TryParseInt#0;class#Main#0" expanded="false" />
+            <element signature="method#HandleHelloUser#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/HelloUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloWorldTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="method#GetProgram#0;class#Main#0" expanded="false" />
+            <element signature="method#TryParseInt#0;class#Main#0" expanded="false" />
+            <element signature="method#HandleHelloUser#0;class#Main#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -449,25 +583,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/HelloWorldTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/HelloWorldTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/HelloUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloWorldTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloUserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -479,29 +621,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/HelloUser.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="49" lean-forward="false" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        <state relative-caret-position="305">
+          <caret line="99" column="68" lean-forward="true" selection-start-line="99" selection-start-column="68" selection-end-line="99" selection-end-column="68" />
+          <folding>
+            <element signature="method#GetProgram#0;class#Main#0" expanded="false" />
+            <element signature="method#TryParseInt#0;class#Main#0" expanded="false" />
+            <element signature="method#HandleHelloUser#0;class#Main#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/SummationOrProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/HelloUserTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/SummationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="289">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Programs/Summation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+        <state relative-caret-position="136">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/com/company/Programs/SummationOrProductTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -562,6 +726,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
