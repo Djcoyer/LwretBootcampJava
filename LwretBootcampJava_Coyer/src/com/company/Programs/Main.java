@@ -1,18 +1,20 @@
 package com.company.Programs;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Main {
     static Scanner scanner = new Scanner(System.in);
-    static String[] programs = {"Hello World","Hello User","Summation", "Sum or Product"};
+    static String[] programs = {"Hello World", "Hello User", "Summation", "Sum or Product", "Sum List", "Rotate List", "Sort Lists"};
+
     public static void main(String[] args) {
-        while(true){
+        while (true) {
             int programIndex = GetProgram();
-            if(programIndex < 0){
+            if (programIndex < 0) {
                 break;
             }
             String programName = programs[programIndex].toUpperCase();
-            switch(programName){
+            switch (programName) {
                 case "HELLO WORLD":
                     HandleHelloWorld();
                     break;
@@ -24,44 +26,51 @@ public class Main {
                     break;
                 case "SUM OR PRODUCT":
                     HandleSumOrProduct();
+                    break;
+                case "SUM LIST":
+                    HandleSumList();
+                case "ROTATE LIST":
+                    HandleRotateList();
+                    break;
+                case "SORT LISTS":
+                    HandleSortLists();
+                    break;
                 default:
                     break;
             }
         }
     }
 
-    private static int GetProgram(){
+    private static int GetProgram() {
         System.out.println("Welcome, please select a program to run:");
         String message = "";
-        for(int i = 0; i < programs.length; i++){
+        for (int i = 0; i < programs.length; i++) {
             message += String.format("%d - %s%n", i + 1, programs[i]);
         }
         System.out.print(message);
         String response = scanner.nextLine();
         boolean validInput = TryParseInt(response);
-        if(validInput){
+        if (validInput) {
             int programIndex = Integer.parseInt(response);
-            if(programIndex <= programs.length && programIndex > 0){
+            if (programIndex <= programs.length && programIndex > 0) {
                 return programIndex - 1;
-            }
-            else {
+            } else {
                 System.out.println("Value must match one of the program indexes");
                 return GetProgram();
             }
 
-        }
-        else{
+        } else {
             System.out.println("Please enter a valid number");
             GetProgram();
         }
         return 0;
     }
 
-    private static boolean TryParseInt(String value){
+    private static boolean TryParseInt(String value) {
         try {
             Integer.parseInt(value);
             return true;
-        }catch (NumberFormatException e){
+        } catch (NumberFormatException e) {
             return false;
         }
     }
@@ -70,19 +79,18 @@ public class Main {
         System.out.println(HelloWorld.GetMessage());
     }
 
-    private static void HandleHelloUser(){
+    private static void HandleHelloUser() {
         String name = HelloUser.GetUserName();
         System.out.println(HelloUser.GetMessage(name));
     }
 
-    private static int GetNumber(String operation){
+    private static int GetNumber(String operation) {
         System.out.printf("What number would you like to see the %s for?", operation);
         String response = scanner.nextLine();
-        if(TryParseInt(response)) {
+        if (TryParseInt(response)) {
             int n = Integer.parseInt(response);
             return n;
-        }
-        else{
+        } else {
             System.out.println("Must enter a valid number");
             return GetNumber(operation);
         }
@@ -97,7 +105,25 @@ public class Main {
     private static void HandleSumOrProduct() {
         String operation = SummationOrProduct.GetOperation();
         int n = GetNumber(operation);
-            String result = SummationOrProduct.SumOrProductFrom1ToN(n, operation);
-            System.out.println(result);
-        }
+        String result = SummationOrProduct.SumOrProductFrom1ToN(n, operation);
+        System.out.println(result);
+    }
+
+    private static void HandleSumList() {
+        List<Integer> numbers = ListSum.GetList();
+        String operation = ListSum.GetOperation();
+        String message = ListSum.SumList(numbers, operation);
+        System.out.println(message);
+    }
+
+    private static void HandleRotateList(){
+        int rotateNum = ListRotate.GetRotateNum();
+        System.out.println(ListRotate.RotateList(rotateNum));
+    }
+
+    private static void HandleSortLists(){
+        System.out.println(ListMerge.PrintArrays());
+        int[] nums = ListMerge.MergeLists();
+        System.out.println(String.format("The sorted list is: %s", ListMerge.PrintList(nums)));
+    }
 }
